@@ -329,7 +329,7 @@ main{
         .text{
             display: flex;
             flex-direction: column;
-            padding: 4rem 3rem;
+            padding: 3rem 1rem;
             color: white;
             h3{
                 font-size: 2.5rem;
@@ -352,6 +352,7 @@ main{
                 text-decoration: none;
                 color: #fff;
                 font-weight: 500;
+                margin-left: 1rem;
             }
         }
     }

@@ -289,7 +289,7 @@ main section.view5 .card img {
 main section.view5 .text {
   display: flex;
   flex-direction: column;
-  padding: 4rem 3rem;
+  padding: 3rem 1rem;
   color: white;
 }
 main section.view5 .text h3 {
@@ -313,6 +313,7 @@ main section.view5 .text a {
   text-decoration: none;
   color: #fff;
   font-weight: 500;
+  margin-left: 1rem;
 }
 
 @media (min-width: 900px) {
