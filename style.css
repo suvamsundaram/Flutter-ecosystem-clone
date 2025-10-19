@@ -133,6 +133,12 @@ main section.view1 button {
   color: royalblue;
   font-size: 1rem;
   font-weight: 600;
+  cursor: pointer;
+}
+main section.view1 .effect button:hover {
+  background-color: royalblue;
+  color: white;
+  transition: all 0.3s ease;
 }
 main section.view1 .more {
   color: black;
@@ -181,6 +187,7 @@ main section.view2 button {
   font-size: 1rem;
   font-weight: 600;
   margin-bottom: 1.5rem;
+  cursor: pointer;
 }
 main section.view3 {
   width: 100%;
@@ -223,6 +230,12 @@ main section.view3 button {
   font-size: 1rem;
   font-weight: 600;
   margin-bottom: 1.5rem;
+  cursor: pointer;
+}
+main section.view3 .effect button:hover {
+  background-color: royalblue;
+  color: white;
+  transition: all 0.3s ease;
 }
 main section.view4 {
   width: 100%;
@@ -266,6 +279,7 @@ main section.view4 button {
   font-size: 1rem;
   font-weight: 600;
   margin-bottom: 1.5rem;
+  cursor: pointer;
 }
 main section.view5 {
   width: 100%;
@@ -308,12 +322,14 @@ main section.view5 .text button {
   font-size: 1rem;
   font-weight: 700;
   border: none;
+  cursor: pointer;
 }
 main section.view5 .text a {
   text-decoration: none;
   color: #fff;
   font-weight: 500;
   margin-left: 1rem;
+  cursor: pointer;
 }
 
 @media (min-width: 900px) {
